@@ -246,6 +246,12 @@
   body {
     background-attachment: scroll !important;
   }
+  body::before {
+    backdrop-filter: blur(10px) !important;
+  }
+  body::after {
+    opacity: 0.7 !important;
+  }
   .section-padding {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
