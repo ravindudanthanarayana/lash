@@ -304,10 +304,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 60vw;
-    height: 60vw;
-    max-width: 320px;
-    max-height: 320px;
+    width: 80vw;
+    height: 80vw;
+    max-width: 420px;
+    max-height: 420px;
     transform: translate(-50%, -50%);
     background: url('/bg.png') no-repeat center center;
     background-size: contain;
