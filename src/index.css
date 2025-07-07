@@ -246,9 +246,10 @@
   body {
     background-attachment: scroll !important;
   }
-  body::before, body::after {
+  body::before {
     display: none !important;
   }
+  /* body::after is now visible on mobile */
   .section-padding {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
