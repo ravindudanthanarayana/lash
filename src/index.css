@@ -243,6 +243,9 @@
 /* Add any other global styles below */
 
 @media (max-width: 767px) {
+  body {
+    background-attachment: scroll !important;
+  }
   .section-padding {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
