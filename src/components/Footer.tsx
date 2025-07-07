@@ -14,16 +14,16 @@ const Footer = () => {
             className="h-7 w-auto"
           />
           <div className="flex gap-2 ml-2 sm:ml-4">
-            <a href="#" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200">
+            <a href="mailto:lashuraglobal@gmail.com" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
               <Mail className="w-4 h-4" />
             </a>
-            <a href="#" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200">
+            <a href="https://wa.me/94782920885" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="w-4 h-4" />
             </a>
-            <a href="#" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200">
+            <a href="https://www.linkedin.com/company/lashura/" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-4 h-4" />
             </a>
-            <a href="#" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200">
+            <a href="https://www.instagram.com/lashura.global?igsh=Z2dmY2owMWduNmEx" className="bg-white/10 p-1.5 rounded-lg hover:bg-white/20 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
               <Instagram className="w-4 h-4" />
             </a>
           </div>
