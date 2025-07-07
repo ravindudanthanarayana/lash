@@ -247,9 +247,11 @@
     background-attachment: scroll !important;
   }
   body::before {
-    display: none !important;
+    backdrop-filter: blur(8px) !important;
+    opacity: 0.2 !important;
+    display: block !important;
   }
-  /* body::after is now visible on mobile */
+  /* body::after is visible and unchanged */
   .section-padding {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
