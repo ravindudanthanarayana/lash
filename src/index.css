@@ -246,12 +246,9 @@
   body {
     background-attachment: scroll !important;
   }
-  body::before {
-    backdrop-filter: blur(8px) !important;
-    opacity: 0.2 !important;
-    display: block !important;
+  body::before, body::after {
+    display: none !important;
   }
-  /* body::after is visible and unchanged */
   .section-padding {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -301,5 +298,22 @@
     border-radius: 1.25rem !important;
     margin-bottom: 0.5rem !important;
     margin-top: 0.5rem !important;
+  }
+  .mobile-bg-logo {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 60vw;
+    height: 60vw;
+    max-width: 320px;
+    max-height: 320px;
+    transform: translate(-50%, -50%);
+    background: url('/bg.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0.18;
+    filter: blur(8px);
+    z-index: 0;
+    pointer-events: none;
   }
 }

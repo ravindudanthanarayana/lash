@@ -50,6 +50,8 @@ const App = () => {
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      {/* Mobile-only background logo */}
+      <div className="mobile-bg-logo" aria-hidden="true"></div>
       <BrowserRouter>
         <AppContent />
       </BrowserRouter>
