@@ -405,7 +405,7 @@ const Index = () => {
         </section>
         <div className="h-20 md:h-32"></div>
         <section id="team" className="py-12 md:py-16 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-white">Our Team That Turns Ideas Into Impact</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-white">Our Leaders Who Turn Ideas Into Impact</h2>
           <div className="px-4 md:px-8">
             <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
               {teamCards.map((card, idx) => (
