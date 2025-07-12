@@ -17,3 +17,16 @@ export function useIsMobile() {
 
   return !!isMobile
 }
+
+export function useIsTablet() {
+  const [isTablet, setIsTablet] = React.useState(false);
+  React.useEffect(() => {
+    function handleResize() {
+      setIsTablet(window.innerWidth >= 768 && window.innerWidth <= 1023);
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return isTablet;
+}

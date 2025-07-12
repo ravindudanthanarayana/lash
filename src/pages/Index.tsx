@@ -9,12 +9,13 @@ import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import { Carousel, Card as AppleCard } from '@/components/ui/apple-cards-carousel';
 import { AnimatedCursor } from '@/components/ui/animated-cursor';
 import emailjs from 'emailjs-com';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { useIsMobile, useIsTablet } from '@/hooks/use-mobile';
 
 const Index = () => {
   useScrollAnimation();
   useScrollBoundary();
   const isMobile = useIsMobile();
+  const isTablet = useIsTablet();
 
   const cards = [
     {
@@ -250,7 +251,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen relative">
-      {!isMobile && <AnimatedCursor />}
+      {!(isMobile || isTablet) && <AnimatedCursor />}
       <main className="relative z-10">
         <div className="min-h-screen w-full flex items-center justify-center px-4 pt-8 pb-4">
           <div className="text-4xl md:text-7xl font-bold text-white text-center">
