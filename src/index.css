@@ -291,8 +291,11 @@
     margin-left: 0.25rem !important;
     margin-right: 0.25rem !important;
   }
-  .rounded-2xl, .rounded-3xl, .rounded-lg, .rounded-full {
+  .rounded-2xl, .rounded-3xl, .rounded-lg {
     border-radius: 0.75rem !important;
+  }
+  .rounded-full {
+    border-radius: 9999px !important;
   }
   footer {
     border-radius: 0 !important;

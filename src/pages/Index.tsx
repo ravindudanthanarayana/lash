@@ -412,7 +412,7 @@ const Index = () => {
               {teamCards.map((card, idx) => (
                 <div key={card.title} className={`flex flex-col items-center ${idx >= 9 ? 'hidden lg:flex' : ''}`}>
                   {/* Circular Image */}
-                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-blue-400/30 mb-4">
+                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-blue-400/30 mb-4 !rounded-full !overflow-hidden">
                     <img 
                       src={card.src} 
                       alt={card.title} 
