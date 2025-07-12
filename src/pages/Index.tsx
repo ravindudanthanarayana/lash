@@ -99,22 +99,22 @@ const Index = () => {
     {
       src: "ravindu.png",
       title: "Ravindu",
-      category: "Founder & CEO",
+      category: "Co-Founder & CEO",
     },
     {
       src: "dinuja.png",
       title: "Dinuja",
-      category: "Chief Technical Officer",
+      category: "Co-Founder & CTO",
     },
     {
       src: "Samith.png",
       title: "Samith",
-      category: "Chief Operating Officer",
+      category: "Co-Founder & COO",
     },
         {
       src: "Inuka.png",
       title: "Inuka",
-      category: "Head of Marketing",
+      category: "Co-Founder & CGO",
     },
     {
       src: "Dineth.png",
@@ -126,25 +126,26 @@ const Index = () => {
       title: "Radila",
       category: "Head of Creative Design",
     },
+   
     {
       src: "hamdhan.png",
-      title: "hamdhan",
-      category: "Software Engineer",
+      title: "Hamdhan",
+      category: "Software Engineering Director",
     },
     {
       src: "Shalitha.png",
       title: "Shalitha",
-      category: "Digital Illustrator",
+      category: "Lead Product Manager",
     },
     {
       src: "Senuka.png",
       title: "Senuka",
-      category: "Content Strategist",
+      category: "Lead Content Strategist",
     },
     {
       src: "Binura.png",
       title: "Binura",
-      category: "Human Resources Manager",
+      category: "Head of Human Resources",
     },
     // {
     //   src: "theekshana.png",
@@ -409,7 +410,7 @@ const Index = () => {
           <div className="px-4 md:px-8">
             <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
               {teamCards.map((card, idx) => (
-                <div key={card.title} className={`flex flex-col items-center ${idx >= 6 ? 'hidden lg:flex' : ''}`}>
+                <div key={card.title} className={`flex flex-col items-center ${idx >= 9 ? 'hidden lg:flex' : ''}`}>
                   {/* Circular Image */}
                   <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-blue-400/30 mb-4">
                     <img 
