@@ -320,3 +320,30 @@
     pointer-events: none;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background: linear-gradient(135deg, #3C3B92 0%, #00B5E2 50%, #4C5FD6 100%) !important;
+    background-attachment: fixed !important;
+    background-size: 200% 200% !important;
+    animation: gradientShift 8s ease infinite !important;
+  }
+  body::before {
+    display: block !important;
+    background: 
+      radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(0, 181, 226, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.1) 0%, transparent 50%) !important;
+    backdrop-filter: blur(40px) !important;
+    z-index: -1;
+  }
+  body::after {
+    display: block !important;
+    background: url('/bg.png') no-repeat center center !important;
+    background-size: contain !important;
+    opacity: 0.5 !important;
+    filter: blur(6px) !important;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
