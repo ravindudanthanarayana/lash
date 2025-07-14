@@ -146,7 +146,7 @@ const Index = () => {
     {
       src: "Binura.png",
       title: "Binura",
-      category: "Head of Human Resources",
+      category: "AI Product Manager",
     },
     // {
     //   src: "theekshana.png",
