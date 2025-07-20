@@ -134,9 +134,9 @@ const Index = () => {
       category: "Software Engineering Director",
     },
     {
-      src: "Shalitha.png",
-      title: "Shalitha",
-      category: "Lead Product Manager",
+      src: "Harikaran.png",
+      title: "Harikaran",
+      category: "Performance Marketing Lead",
     },
     {
       src: "thamadi.png",
