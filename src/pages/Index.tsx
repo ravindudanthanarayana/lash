@@ -129,8 +129,8 @@ const Index = () => {
     },
    
     {
-      src: "hamdhan.png",
-      title: "Hamdhan",
+      src: "shamal.png",
+      title: "Shamal",
       category: "Software Engineering Director",
     },
     {
