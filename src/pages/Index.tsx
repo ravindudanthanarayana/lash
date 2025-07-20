@@ -103,19 +103,19 @@ const Index = () => {
       category: "Co-Founder & CEO",
     },
     {
-      src: "dinuja.png",
-      title: "Dinuja",
+      src: "Samith.png",
+      title: "Samith",
       category: "Co-Founder & CTO",
     },
     {
-      src: "Samith.png",
-      title: "Samith",
-      category: "Co-Founder & COO",
-    },
-        {
       src: "Inuka.png",
       title: "Inuka",
       category: "Co-Founder & CGO",
+    },
+    {
+      src: "dinuja.png",
+      title: "Dinuja",
+      category: "Software Engineering Director",
     },
     {
       src: "Dineth.png",
@@ -131,7 +131,7 @@ const Index = () => {
     {
       src: "shamal.png",
       title: "Shamal",
-      category: "Software Engineering Director",
+      category: "Digital Transformation Analyst",
     },
     {
       src: "Harikaran.png",
